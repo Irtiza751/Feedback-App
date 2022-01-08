@@ -65,6 +65,62 @@ export default function RatingSelect(props) {
         />
         <label htmlFor="num5">5</label>
       </li>
+      <li>
+        <input
+          type="radio"
+          name="rating"
+          id="num5"
+          value="5"
+          checked={selected == 6}
+          onChange={handleChange}
+        />
+        <label htmlFor="num5">6</label>
+      </li>
+      <li>
+        <input
+          type="radio"
+          name="rating"
+          id="num5"
+          value="5"
+          checked={selected == 7}
+          onChange={handleChange}
+        />
+        <label htmlFor="num5">7</label>
+      </li>
+      <li>
+        <input
+          type="radio"
+          name="rating"
+          id="num5"
+          value="5"
+          checked={selected == 8}
+          onChange={handleChange}
+        />
+        <label htmlFor="num5">8</label>
+      </li>
+      <li>
+        <input
+          type="radio"
+          name="rating"
+          id="num5"
+          value="5"
+          checked={selected == 9}
+          onChange={handleChange}
+        />
+        <label htmlFor="num5">9</label>
+      </li>
+      <li>
+        <input
+          type="radio"
+          name="rating"
+          id="num5"
+          value="5"
+          checked={selected == 10}
+          onChange={handleChange}
+        />
+        <label htmlFor="num5">10</label>
+      </li>
+
     </ul>
   );
 }
